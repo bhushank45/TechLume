@@ -9,6 +9,47 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: "Poppins", sans-serif;
 }
+.navbar-brand{
+    padding: 0;
+}
 .navbar-brand img{
-    width: 150px;
-} 
+    width: 180px;
+}
+.navbar-nav{
+    font-size: 18px;  
+}
+.nav-link{
+    color: #fff;
+    transition: 0.3s;
+    margin-right: 20px;
+}
+.nav-link:hover{
+    color: #E9D5FF;
+    transform: translateY(-3px);
+}
+.dropdown-toggle-split{
+    color: #fff;
+    
+}
+.dropdown-toggle-split:hover{
+    color: #E9D5FF;
+}
+.bg-purple{
+    background-color: #7C3AED;  
+}
+.dropdown-item{
+    color: #7C3AED;
+}
+.dropdown-item:hover{
+    background-color: #7C3AED;
+    color: #fff;
+}
+.dropdown-menu h6{
+    color: #7C3AED;
+}
+.active{
+    color:#fff;
+    background-color:#A855F7;
+    border-radius:8px;
+    padding:8px 16px;
+}
