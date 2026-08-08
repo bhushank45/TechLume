@@ -47,7 +47,7 @@ h1,h2,h3,h4,h5,h6{
 .dropdown-menu h6{
     color: #7C3AED;
 }
-.active{
+.active-link{
     color:#fff;
     background-color:#A855F7;
     border-radius:8px;
