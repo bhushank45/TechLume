@@ -9,6 +9,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: "Poppins", sans-serif;
 }
+/* navbar */
 .navbar-brand{
     padding: 0;
 }
@@ -52,4 +53,103 @@ h1,h2,h3,h4,h5,h6{
     background-color:#A855F7;
     border-radius:8px;
     padding:8px 16px;
+}
+/* hero section */
+.btn-purple {
+    background-color: #7C3AED;
+    color: #fff;
+    border: 1px solid #7C3AED;
+    padding: 12px 24px;
+}
+
+.btn-purple:hover {
+    background-color: #A855F7;
+    border-color: #A855F7;
+    color: #fff;
+}
+
+
+.btn-purple-outline {
+    background-color: #fff;
+    color: #7C3AED;
+    border: 1px solid #7C3AED;
+    padding: 12px 24px;
+
+}
+
+.btn-purple-outline:hover {
+    background-color: #7C3AED;
+    color: #fff;
+}
+.hero{
+    min-width: calc(100vh - 81px);
+    background-color: #ffffff;
+}
+.hero-image img{
+    width: 100%;
+    min-width: 500px;
+    height: auto;
+}
+.hero-badge{
+    display: inline-block;
+    margin: 20px 0 20px;
+    padding: 8px 16px;
+    border-radius: 30px;
+    background-color: #F3E8FF;
+    color: #7C3AED;
+    font-size: 14px;
+    font-weight: 600;
+}
+.hero-badge i{
+    font-weight: 14px;
+}
+.hero-text h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+.hero-text h1 span{
+    color: #7C3AED;
+}
+.hero-text p{
+    font-size: 18px;
+    line-height: 1.7;
+    color: #6B7280;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 70px;
+}
+.hero-stats{
+    display: flex;
+    gap: 35px;
+}
+.stat{
+    display: flex;
+    height: 70px;
+    gap: 10px;
+    padding-right: 20px;
+    border-right: 1px solid #E5E7EB;
+}
+.stat:last-child{
+    border: none;
+}
+.stat i{
+    font-size: 24px;
+    display: inline-block;
+    margin-top: 12px;
+    color: #7C3AED;
+}
+.stat-meta span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+}
+.stat-meta p{
+    font-size: 14px;
+    color: #6B7280;
 }
