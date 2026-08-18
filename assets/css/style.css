@@ -199,8 +199,14 @@ h1,h2,h3,h4,h5,h6{
     padding: 10px;
     border-radius: 50%;
 }
-.card{
+.card {
     transition: 0.3s;
+}
+.card-title{
+    transition: 0.3s;
+}
+.card:hover .card-title{
+    color: #7C3AED !important;
 }
 .card:hover{
     transform: translateY(-8px);
