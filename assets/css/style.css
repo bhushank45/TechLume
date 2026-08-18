@@ -183,3 +183,30 @@ h1,h2,h3,h4,h5,h6{
     color: #7C3AED !important;
     transform: translateY(-3px);
 }
+/* why choose us section */
+.why-choose{
+    height: 100vh;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    width: 100px;
+    height: 100px;
+    color: #7C3AED;
+    background-color: #E9D5FF;
+    padding: 10px;
+    border-radius: 50%;
+}
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-8px);
+}
+.meta{
+    background-color: #E9D5FF;
+    padding: 10px;
+    border-radius: 28px;
+}
