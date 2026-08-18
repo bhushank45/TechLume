@@ -238,3 +238,49 @@ h1,h2,h3,h4,h5,h6{
     min-width: 750px;
     height: auto;
 }
+/* our mission */
+.our-mission{
+    min-height: 100vh;
+}
+.f-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #E9D5FF;
+    border-radius: 50%;
+    color: #7C3AED;
+    font-size: 20px;
+}
+.text-title{
+    font-size: 42px;
+}
+.mission-panel{
+    background-color: #E9D5FF;
+    border-radius: 30px;
+    padding: 45px;
+}
+.mission-card{
+    background-color: #fff;
+    padding: 28px;
+    border-radius: 22px;
+    border: 1px solid #EEE8FF;
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.08);
+}
+.mission-icon{
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #7C3AED;
+    color: #fff;
+    font-size: 32px;
+    margin-right: 25px;
+}
+.mission-content{
+    border-left: 1px solid #DDD6FE;
+    padding-left: 25px;
+}
