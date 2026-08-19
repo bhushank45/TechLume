@@ -290,3 +290,7 @@ h1,h2,h3,h4,h5,h6{
 .testimonials{
     min-height: 100vh;
 }
+/* courses section */
+.course-container{
+    min-height: 100vh;
+}
