@@ -286,3 +286,7 @@ h1,h2,h3,h4,h5,h6{
     border-left: 1px solid #DDD6FE;
     padding-left: 25px;
 }
+/* testimonials */
+.testimonials{
+    min-height: 100vh;
+}
