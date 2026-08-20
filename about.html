@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechLume-About Us</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -167,43 +166,45 @@
                             the skills they need to thrive in a digital world.
                         </p>
                         <div class="featured-container d-flex flex-column justify-content-start">
-                        <div class="featured d-flex gap-3 align-items-start mb-3">
-                            <i class="bi bi-mortarboard-fill f-icon"></i>  
-                            <div>
-                                <h5 class="fw-semibold">Learn Practical Skills</h5>
-                                <p class="text-secondary">Industry-relevant courses designed to build real skills <br>
-                                    you can apply in the real world.
+                            <div class="featured d-flex gap-3 align-items-start mb-3">
+                                <i class="bi bi-mortarboard-fill f-icon"></i>
+                                <div>
+                                    <h5 class="fw-semibold">Learn Practical Skills</h5>
+                                    <p class="text-secondary">Industry-relevant courses designed to build real skills
+                                        <br>
+                                        you can apply in the real world.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="featured d-flex gap-3 align-items-start mb-3">
+                                <p class="d-flex">
+                                    <i class="bi bi-code-slash f-icon"></i>
                                 </p>
+                                <div>
+                                    <h5 class="fw-semibold">Build Real Projects</h5>
+                                    <p class="text-secondary">Hands-on projects that helps you practice, create, <br>
+                                        and build your strong portfolio.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="featured d-flex gap-3 align-items-start">
+                                <i class="bi bi-suitcase-lg-fill f-icon"></i>
+                                <div>
+                                    <h5 class="fw-semibold">Prepare for Real Careers</h5>
+                                    <p class="text-secondary">We prepare you for the job market with the right <br>
+                                        guidance and career support.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="featured d-flex gap-3 align-items-start mb-3">
-                            <p class="d-flex">
-                            <i class="bi bi-code-slash f-icon"></i></p>
-                            <div>
-                                <h5 class="fw-semibold">Build Real Projects</h5>
-                                <p class="text-secondary">Hands-on projects that helps you practice, create, <br>
-                                    and build your strong portfolio.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="featured d-flex gap-3 align-items-start">
-                            <i class="bi bi-suitcase-lg-fill f-icon"></i>
-                            <div>
-                                <h5 class="fw-semibold">Prepare for Real Careers</h5>
-                                <p class="text-secondary">We prepare you for the job market with the right <br>
-                                    guidance and career support.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                     </div>
 
                     <div class="col-lg-6">
                         <div class="mission-panel">
-                            <div class="mission-card d-flex align-items-center mb-3">                    
+                            <div class="mission-card d-flex align-items-center mb-3">
                                 <div class="mission-icon">
                                     <i class="bi bi-bullseye"></i>
-                                </div>                    
+                                </div>
                                 <div class="mission-content">
                                     <h4>Our Mission</h4>
                                     <p>
@@ -211,12 +212,12 @@
                                         education that empowers learners to achieve their
                                         goals and build better futures.
                                     </p>
-                                </div>                    
-                            </div>                                        
-                            <div class="mission-card d-flex align-items-center mb-3">                    
+                                </div>
+                            </div>
+                            <div class="mission-card d-flex align-items-center mb-3">
                                 <div class="mission-icon">
                                     <i class="bi bi-eye-fill"></i>
-                                </div>                    
+                                </div>
                                 <div class="mission-content">
                                     <h4>Our Vision</h4>
                                     <p>
@@ -224,7 +225,7 @@
                                         curiosity, drives innovation, and creates a positive
                                         impact in people's lives.
                                     </p>
-                                </div>                    
+                                </div>
                             </div>
                             <div class="mission-card values-card d-flex align-items-start">
                                 <div class="mission-icon">
@@ -248,11 +249,140 @@
                                         <div class="value d-flex justify-content-center flex-column">
                                             <i class="bi bi-people align-self-center fs-4 text-purple"></i>
                                             <span>Inclusion</span>
-                                        </div>                    
-                                    </div>                    
-                                </div>                    
-                            </div>                    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our instructors -->
+        <section class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="text-purple fw-bold meta shadow-sm text-uppercase">
+                        Our Instructors
+                    </span>
+
+                    <h1 class="mt-4 fw-bold mb-3">
+                        Learn From Our <span class="text-purple">Expert Instructors</span>
+                    </h1>
+
+                    <p class="text-secondary">
+                        Learn from experienced professionals who bring practical knowledge <br>
+                        and real-world experience to every course.
+                    </p>
+                </div>
+
+                <div id="instructorCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card h-100 border-0 shadow">
+                                        <img src="assets/images/Testimonials/harsh.png" class="card-img-top"
+                                            alt="Java Instructor">
+
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title fw-bold">
+                                                Rahul Sharma
+                                            </h5>
+
+                                            <p class="text-purple fw-semibold mb-2">
+                                                Java & Spring Boot
+                                            </p>
+
+                                            <p class="card-text text-secondary">
+                                                8+ years of experience in Java development
+                                                and backend technologies.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card h-100 border-0 shadow">
+                                        <img src="assets/images/Testimonials/raj.jpg" class="card-img-top"
+                                            alt="Frontend Instructor">
+
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title fw-bold">
+                                                Priya Patil
+                                            </h5>
+
+                                            <p class="text-purple fw-semibold mb-2">
+                                                Frontend Development
+                                            </p>
+
+                                            <p class="card-text text-secondary">
+                                                6+ years of experience in frontend development
+                                                and modern web technologies.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card h-100 border-0 shadow">
+                                        <img src="assets/images/Testimonials/soham.png" class="card-img-top"
+                                            alt="Python Instructor">
+
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title fw-bold">
+                                                Amit Kulkarni
+                                            </h5>
+
+                                            <p class="text-purple fw-semibold mb-2">
+                                                Python & Backend
+                                            </p>
+
+                                            <p class="card-text text-secondary">
+                                                7+ years of experience in Python development
+                                                and backend technologies.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card h-100 border-0 shadow">
+                                        <img src="assets/images/Testimonials/soham.png" class="card-img-top"
+                                            alt="React Instructor">
+
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title fw-bold">
+                                                Neha Deshmukh
+                                            </h5>
+
+                                            <p class="text-purple fw-semibold mb-2">
+                                                React & UI Development
+                                            </p>
+
+                                            <p class="card-text text-secondary">
+                                                5+ years of experience in React development
+                                                and modern user interfaces.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -287,7 +417,7 @@
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="col-md-6 col-lg-3">
                         <div class="card h-100 text-center shadow border-0 py-3">
                             <div class="card-body">
@@ -307,7 +437,7 @@
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="col-md-6 col-lg-3">
                         <div class="card h-100 text-center shadow border-0 py-3">
                             <div class="card-body">
@@ -327,7 +457,7 @@
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="col-md-6 col-lg-3">
                         <div class="card h-100 text-center shadow border-0 py-3">
                             <div class="card-body">
@@ -515,9 +645,7 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
