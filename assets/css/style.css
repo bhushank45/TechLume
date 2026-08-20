@@ -10,6 +10,11 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Poppins", sans-serif;
 }
 /* navbar */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 .navbar-brand{
     padding: 0;
 }
@@ -292,5 +297,9 @@ h1,h2,h3,h4,h5,h6{
 }
 /* courses section */
 .course-container{
+    min-height: 100vh;
+}
+/* contact us section */
+section{
     min-height: 100vh;
 }
