@@ -303,3 +303,27 @@ header{
 section{
     min-height: 100vh;
 }
+/* crousel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 45px;
+    height: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #E5E7EB;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.carousel-control-prev {
+    left: 15%;
+}
+
+.carousel-control-next {
+    right: 15%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #A855F7;
+}
