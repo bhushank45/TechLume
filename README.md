@@ -30,6 +30,14 @@ The main objectives of TechLume were to:
 -   Create a responsive and user-friendly educational website.
 -   Improve frontend development and UI design skills.
 
+## 🌐 Live Demo
+
+Experience the live TechLume website:
+
+👉 **[View TechLume Live Demo](https://bhushank45.github.io/TechLume/)**
+
+TechLume is deployed using **GitHub Pages** and can be accessed directly in a web browser.
+
 ## ✨ Main Features
 
 -   Responsive purple-themed navigation bar.
